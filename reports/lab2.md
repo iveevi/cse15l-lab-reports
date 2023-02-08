@@ -67,12 +67,14 @@ Server Started! Visit http://localhost:8080 to visit.
 **Examples of querying the server:**
 
 ![](../media/lab2/stringserver1.png)
+
 In the above request -- `http://localhost:8080/add-message?s=Hello how are you` --
 we server understands that the user wants to store the string `"Hello how are
 you"`. The member `messages` in the server's `Handler` instance, which is
 initially empty, is now append with this value.
 
 ![](../media/lab2/stringserver2.png)
+
 In the above request -- `http://localhost:8080/add-message?s=Hello` --
 we server understands that the user wants to store the string `"Hello"`.
 The member `messages` in the server's `Handler` instance, which contained the
